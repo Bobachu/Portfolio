@@ -72,7 +72,7 @@ function Portfolio() {
           className="w3-col m3 w3-display-container w3-hover-opacity"
         >
           <img
-            src="./images/terra.jpg"
+            src="./images/Terra.jpg"
             // className="w3-hover-opacity"
             alt="Quiet ocean"
             style={{ width: 216, height: 162 }}
