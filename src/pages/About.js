@@ -75,7 +75,7 @@ function About() {
             </h2>
             <div className="w3-container">
               <h5 className="w3-opacity">
-                <b>Front End Developer / w3schools.com</b>
+                <b>Lead of Product QA [Manager] / Flaregames</b>
               </h5>
               <h6 className="w3-text-theme">
                 <i className="fa fa-calendar fa-fw w3-margin-right" />
@@ -118,34 +118,192 @@ function About() {
                   </ul>
                 </li>
               </ul>
-              <hr />
+              {/* <hr /> */}
             </div>
             <div className="w3-container">
               <h5 className="w3-opacity">
-                <b>Web Developer / something.com</b>
+                <b>QA Test Lead / Flaregames</b>
               </h5>
-              <h6 className="w3-text-theme">
+              {/* <h6 className="w3-text-theme">
                 <i className="fa fa-calendar fa-fw w3-margin-right" />
                 Mar 2012 - Dec 2014
-              </h6>
-              <p>
-                Consectetur adipisicing elit. Praesentium magnam consectetur vel
-                in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora
-                soluta ea et odio, unde doloremque repellendus iure, iste.
-              </p>
+              </h6> */}
+              <ul>
+                <li>
+                  Tasked with being the Publishing QA Lead for a project from a
+                  third-party developer starting during soft launch and going to
+                  the project’s sunset.{" "}
+                  <ul>
+                    <li>
+                      Created test plans for feature testing to assist the
+                      developer leading up to submissions.{" "}
+                    </li>
+                    <li>
+                      Ensured submission testing was complete by the agreed upon
+                      release date.
+                    </li>
+                    <li>
+                      Maintained test plans and tested updates to the game
+                      throughout the lifecycle.
+                    </li>
+                    <li>
+                      Coordinated with an internal game team and the external
+                      developer for project continuity.
+                    </li>
+                    <li>Managed outsource teams as needed for testing.</li>
+                    <li>Deployed test servers using AWS.</li>
+                  </ul>
+                </li>
+              </ul>
               <hr />
             </div>
             <div className="w3-container">
               <h5 className="w3-opacity">
-                <b>Graphic Designer / designsomething.com</b>
+                <b>QA Test Lead / WildTangent Studio</b>
               </h5>
               <h6 className="w3-text-theme">
                 <i className="fa fa-calendar fa-fw w3-margin-right" />
-                Jun 2010 - Mar 2012
+                September 2012 - August 2015
               </h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+              <ul>
+                <li>
+                  Tasked with starting the QA team for the new mobile games
+                  studio formed by WildTangent, responsible for testing of all
+                  games made internally as well as games created by outsource
+                  partners for Android and iOS. Also responsible for
+                  interviewing and hiring additional QA staff as needed,
+                  including hiring contract workers for holiday work load
+                  increases.{" "}
+                  <ul>
+                    <li>
+                      Lead testing on all studio titles, both internally created
+                      as well as outsourced.{" "}
+                    </li>
+                    <li>
+                      Ensured all titles are tested and released on schedule.{" "}
+                    </li>
+                    <li>
+                      Tested updates for existing titles until project sunset.{" "}
+                    </li>
+                    <li>
+                      Coordinated with producers, developers, and art teams to
+                      remain up to date on fast changing requirements.{" "}
+                    </li>
+                    <li>
+                      Created and maintained in internal beta process to use the
+                      larger main office for game feedback before release.{" "}
+                    </li>
+                  </ul>
+                </li>
+              </ul>
               <br />
             </div>
+            <hr />
+            <div className="w3-container">
+              <h5 className="w3-opacity">
+                <b>QA Test Lead in Social / PopCap Games</b>
+              </h5>
+              <h6 className="w3-text-theme">
+                <i className="fa fa-calendar fa-fw w3-margin-right" />
+                August 2007 - August 2012
+              </h6>
+              <ul>
+                <li>
+                  Responsible for managing testing on a Facebook connected
+                  Bejeweled Blitz iOS project as well as directing and training
+                  other testers on the project; work and maintain a live product
+                  with regular client and server updates. Responsible for
+                  coordinating with other platforms on the project with shared
+                  server infrastructure before and during server and client
+                  updates.
+                  <ul>
+                    <li>
+                      Lead testing on iOS client updates while maintaining the
+                      current live product.
+                    </li>
+                    <li>
+                      Coordinated with the customer service department after
+                      product release in identifying and resolving reported end
+                      user issues.
+                    </li>
+                    <li>
+                      Worked with developers and producers to triage and fix
+                      bugs and design new features.
+                    </li>
+                    <li>
+                      Trained new testers to assist with client and server push
+                      testing.
+                    </li>
+                    <li>
+                      Created and maintained test and training documentation.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <br />
+            </div>
+            <div className="w3-container">
+              <h5 className="w3-opacity">
+                <b>QA Lead in Studio / PopCap Games</b>
+              </h5>
+              <h6 className="w3-text-theme">
+                <i className="fa fa-calendar fa-fw w3-margin-right" />
+                {/* Jun 2010 - Mar 2012 */}
+              </h6>
+              <ul>
+                <li>
+                  Full-time employee in the studio QA department where I was
+                  responsible for ensuring that projects that were assigned to
+                  me were fully tested and ready for release. I was also in
+                  charge of preparing test plans for assigned projects as well
+                  as giving final QA sign off when the project was completed.
+                  <ul>
+                    <li>
+                      Lead other testers on multiple projects to ensure the best
+                      quality and a timely product release.
+                    </li>
+                    <li>
+                      Maintained open communication with the producers,
+                      developers and artists for triaging of bugs and project
+                      planning.
+                    </li>
+                  </ul>
+                </li>
+              </ul>{" "}
+              <br />
+            </div>
+            <div className="w3-container">
+              <h5 className="w3-opacity">
+                <b>QA Tester and Lead in Mobile / PopCap Games</b>
+              </h5>
+              <h6 className="w3-text-theme">
+                <i className="fa fa-calendar fa-fw w3-margin-right" />
+                {/* Jun 2010 - Mar 2012 */}
+              </h6>
+              <ul>
+                <li>
+                  Full-Time employee in the mobile QA department where I began
+                  as a QA tester testing the porting of games into BREW and Java
+                  for mobile devices for US specific carriers. I was then made a
+                  Lead responsible for ensuring that porting to US BREW devices
+                  (including Verizon and Alltel phones) as well as porting to US
+                  Java devices for AT&T were thoroughly tested.
+                  <ul>
+                    <li>
+                      Responsible for guaranteeing that builds for BREW devices
+                      passed the TruBREW certification tests for release.
+                    </li>
+                    <li>
+                      Coordinated with test teams in Dublin, Ireland to promptly
+                      and efficiently complete porting and backfill projects.
+                    </li>
+                    <li>Maintained robust device inventories.</li>
+                  </ul>
+                </li>
+              </ul>{" "}
+              <br />
+            </div>
+            <hr />
           </div>
 
           <div className="w3-container w3-card w3-white">
