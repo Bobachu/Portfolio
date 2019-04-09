@@ -73,7 +73,7 @@ function Home() {
               <img
                 src="https://picsum.photos/445/296/?random"
                 alt="Avatar"
-                id="avatar"
+                id="homeImage"
               />
               <div className="w3-display-bottomleft w3-container w3-text-black">
                 <h2>Bob Church</h2>

@@ -17,7 +17,7 @@ function Contact(props) {
                 <img
                   src="/images/payphone.jpg"
                   alt="Avatar"
-                  id="avatar"
+                  id="contactImage"
                 />
                 {/* <div className="w3-display-bottomleft w3-container w3-text-black">
                   <h2>Jane Doe</h2>
