@@ -22,11 +22,19 @@ body {
     margin: auto;
     margin-top: 5% !important;
 }
+#contactPage {
+    margin: auto;
+    margin-top: 5% !important;
+}
 #port-row-2 {
     margin: auto !important;
 }
 #portfolio {
     margin-top: 5%;
+}
+#contactImage {
+    width: 435px !important;
+    height: 290px !important;
 }
 
 /* color theme */
@@ -53,46 +61,29 @@ body {
 .w3-hover-text-theme:hover {color:#5a7247 !important}
 .w3-hover-border-theme:hover {border-color:#5a7247 !important}
 
-/* Animations */
-@keyframes bounceInLeft {
-    from,
-    60%,
-    75%,
-    90%,
-    to {
-      /* -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); */
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+/* mobile responsive */
+@media only screen and (max-width: 600px) {
+    #homePage {
+        margin-top: 180px !important;
+        margin-bottom: 100px !important;
     }
-  
-    0% {
-      opacity: 0;
-      /* -webkit-transform: translate3d(-3000px, 0, 0); */
-      transform: translate3d(-3000px, 0, 0);
+    #resume {
+        margin-top: 180px !important;
+        margin-bottom: 100px !important;
     }
-  
-    60% {
-      opacity: 1;
-      /* -webkit-transform: translate3d(25px, 0, 0); */
-      transform: translate3d(25px, 0, 0);
+    #homeImage {
+        width: 370px !important;
     }
-  
-    75% {
-      /* -webkit-transform: translate3d(-10px, 0, 0); */
-      transform: translate3d(-10px, 0, 0);
+    #contactPage {
+        margin-top: 180px !important;
+        margin-bottom: 100px !important;
     }
-  
-    90% {
-      /* -webkit-transform: translate3d(5px, 0, 0); */
-      transform: translate3d(5px, 0, 0);
+    #contactImage {
+        width: 370px !important;
     }
-  
-    to {
-      /* -webkit-transform: translate3d(0, 0, 0); */
-      transform: translate3d(0, 0, 0);
+    #portfolio {
+        margin-top: 180px !important;
+        margin-bottom: 100px !important;
     }
   }
-  
-  .bounceInLeft {
-    /* -webkit-animation-name: bounceInLeft; */
-    animation-name: bounceInLeft;
-  }
+

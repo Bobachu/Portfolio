@@ -67,12 +67,12 @@ function Home() {
         {/* <!-- End Left Column --> */}
 
         {/* <!-- Right Column --> */}
-        <div className="w3-third w3-animate-top">
+        <div className="w3-third w3-animate-top w3-center">
           <div className="w3-white w3-text-grey w3-card-4">
             <div className="w3-display-container">
               <img
-                src="https://picsum.photos/445/296/?random"
-                alt="Avatar"
+                src="/images/home.jpg"
+                alt="home"
                 id="homeImage"
               />
               <div className="w3-display-bottomleft w3-container w3-text-black">

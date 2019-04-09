@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Contact(props) {
   return (
-    <div id="homePage" style={{ maxWidth: 1400 }}>
+    <div id="contactPage" style={{ maxWidth: 1400 }}>
       <div
         className="w3-content w3-text-grey w3-container"
         id="about"
@@ -16,7 +16,7 @@ function Contact(props) {
               <div className="w3-display-container">
                 <img
                   src="/images/payphone.jpg"
-                  alt="Avatar"
+                  alt="payphone"
                   id="contactImage"
                 />
                 {/* <div className="w3-display-bottomleft w3-container w3-text-black">
