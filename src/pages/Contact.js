@@ -6,16 +6,16 @@ function Contact(props) {
   return (
     <div id="homePage" style={{ maxWidth: 1400 }}>
       <div
-        className="w3-content w3-card-4 w3-white w3-text-grey w3-container"
+        className="w3-content w3-text-grey w3-container"
         id="about"
       >
         <div className="w3-row-padding">
           {/* <!-- Left Column --> */}
-          <div className="w3-third">
+          <div className="w3-third w3-animate-zoom">
             <div className="w3-white w3-text-grey w3-card-4">
               <div className="w3-display-container">
                 <img
-                  src="https://picsum.photos/445/296"
+                  src="/images/payphone.jpg"
                   alt="Avatar"
                   id="avatar"
                 />
@@ -30,7 +30,7 @@ function Contact(props) {
           </div>
 
           {/* <!-- Right Column --> */}
-          <div className="w3-twothird">
+          <div className="w3-twothird w3-animate-zoom">
             <div className="w3-container w3-card w3-white w3-margin-bottom">
               <h2 className="w3-text-grey w3-padding-16 w3-center">
                 <i className="fa fa-address-card fa-fw w3-margin-right w3-xxlarge w3-text-theme" />

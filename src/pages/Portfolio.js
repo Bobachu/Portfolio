@@ -2,7 +2,7 @@ import React from "react";
 
 function Portfolio() {
   return (
-    <div className="w3-content w3-container w3-padding-64 w3-card-4" id="portfolio">
+    <div className="w3-content w3-container w3-padding-64 w3-card-4 w3-animate-opacity" id="portfolio">
       <h3 className="w3-center w3-wide">PORTFOLIO</h3>
       <p className="w3-center">
         <em>
@@ -18,7 +18,7 @@ function Portfolio() {
           href="https://bobachu.github.io/project1/"
           target="_blank"
           rel="noopener noreferrer"
-          className="w3-col m3 w3-display-container w3-hover-opacity"
+          className="w3-col m3 w3-display-container w3-hover-opacity w3-animate-left"
         >
           <img
             src="./images/meteorite.jpg"
@@ -35,7 +35,7 @@ function Portfolio() {
           href="https://obscure-atoll-11517.herokuapp.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="w3-col m3 w3-display-container w3-hover-opacity"
+          className="w3-col m3 w3-display-container w3-hover-opacity w3-animate-top"
         >
           <img
             src="./images/avocado.png"
@@ -52,7 +52,7 @@ function Portfolio() {
           href="https://banana-cupcake-16306.herokuapp.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="w3-col m3 w3-display-container w3-hover-opacity"
+          className="w3-col m3 w3-display-container w3-hover-opacity w3-animate-bottom"
         >
           <img
             src="./images/gamead.jpeg"
@@ -69,7 +69,7 @@ function Portfolio() {
           href="https://bobachu.github.io/unit-4-game/"
           target="_blank"
           rel="noopener noreferrer"
-          className="w3-col m3 w3-display-container w3-hover-opacity"
+          className="w3-col m3 w3-display-container w3-hover-opacity w3-animate-right"
         >
           <img
             src="./images/Terra.jpg"
