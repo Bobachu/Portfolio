@@ -4,8 +4,17 @@ body {
 }
 
 /* element styles */
-
+a {
+    cursor: pointer !important;
+}
+/* footer {
+    z-index: -1 !important;
+} */
 /* class styles */
+.w3-dropdown-content {
+    width: 400px !important;
+    z-index: 999 !important;
+}
 
 /* id styles */
 #about {
@@ -31,6 +40,7 @@ body {
 }
 #portfolio {
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 #contactImage {
     width: 435px !important;
@@ -63,6 +73,9 @@ body {
 
 /* mobile responsive */
 @media only screen and (max-width: 600px) {
+    .w3-dropdown-content {
+        display: none !important;
+    }
     #homePage {
         margin-top: 180px !important;
         margin-bottom: 100px !important;
