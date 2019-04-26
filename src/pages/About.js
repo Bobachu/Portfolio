@@ -15,7 +15,7 @@ function About() {
           <div className="w3-white w3-text-grey w3-card-4">
             <div className="w3-display-container">
               <img
-                src="https://picsum.photos/445/296"
+                src="/images/me.jpg"
                 alt="Avatar"
                 id="avatar"
               />

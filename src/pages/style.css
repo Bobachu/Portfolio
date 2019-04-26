@@ -85,18 +85,17 @@ a {
         margin-bottom: 100px !important;
     }
     #homeImage {
-        width: 370px !important;
+        width: 100% !important;
     }
     #contactPage {
         margin-top: 180px !important;
         margin-bottom: 100px !important;
     }
     #contactImage {
-        width: 370px !important;
+        width: 100% !important;
     }
     #portfolio {
         margin-top: 180px !important;
         margin-bottom: 100px !important;
     }
-  }
-
+}
