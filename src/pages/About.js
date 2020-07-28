@@ -14,11 +14,7 @@ function About() {
         <div className="w3-third w3-animate-left">
           <div className="w3-white w3-text-grey w3-card-4">
             <div className="w3-display-container">
-              <img
-                src="/images/me.jpg"
-                alt="Avatar"
-                id="avatar"
-              />
+              <img src="/images/me.jpg" alt="Avatar" id="avatar" />
               <div className="w3-display-bottomleft w3-container w3-text-black">
                 <h2>Bob Church</h2>
               </div>
@@ -75,6 +71,45 @@ function About() {
             </h2>
             <div className="w3-container">
               <h5 className="w3-opacity">
+                <b>Front End Developer</b>
+              </h5>
+              <h6 className="w3-text-theme">
+                <i className="fa fa-calendar fa-fw w3-margin-right" />
+                July 2019 - Current
+                {/* <span className="w3-tag w3-theme w3-round">Current</span> */}
+              </h6>
+              <ul>
+                <li>
+                  Working as a front-end developer using Angular, involved with
+                  upgrading the existing code from AngularJS to Angular 7 then
+                  moving into Drupal development responsible for updating and
+                  maintaining the Drupal code for the company’s page, as well as
+                  updating and creating ptypes to allow content creators to use
+                  the latest Angular components.{" "}
+                  <ul>
+                    <li>
+                      Upgrading website components from AngularJS to Angular 7.{" "}
+                    </li>
+                    <li>
+                      Writing and fixing unit tests for both AngularJS and
+                      Angular 7.{" "}
+                    </li>
+                    <li>
+                      Debugging and fixing defects found in TrackJS and Splunk
+                      errors from the live site.
+                    </li>
+                    <li>Updating and maintaining the Drupal based CMS.</li>
+                    <li>
+                      Part of the on call team for live issues coming from
+                      tracking and error reporting systems.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              {/* <hr /> */}
+            </div>
+            <div className="w3-container">
+              <h5 className="w3-opacity">
                 <b>Lead of Product QA [Manager] / Flaregames</b>
               </h5>
               <h6 className="w3-text-theme">
@@ -124,10 +159,6 @@ function About() {
               <h5 className="w3-opacity">
                 <b>QA Test Lead / Flaregames</b>
               </h5>
-              {/* <h6 className="w3-text-theme">
-                <i className="fa fa-calendar fa-fw w3-margin-right" />
-                Mar 2012 - Dec 2014
-              </h6> */}
               <ul>
                 <li>
                   Tasked with being the Publishing QA Lead for a project from a
@@ -246,10 +277,6 @@ function About() {
               <h5 className="w3-opacity">
                 <b>QA Lead in Studio / PopCap Games</b>
               </h5>
-              <h6 className="w3-text-theme">
-                <i className="fa fa-calendar fa-fw w3-margin-right" />
-                {/* Jun 2010 - Mar 2012 */}
-              </h6>
               <ul>
                 <li>
                   Full-time employee in the studio QA department where I was
@@ -276,10 +303,6 @@ function About() {
               <h5 className="w3-opacity">
                 <b>QA Tester and Lead in Mobile / PopCap Games</b>
               </h5>
-              <h6 className="w3-text-theme">
-                <i className="fa fa-calendar fa-fw w3-margin-right" />
-                {/* Jun 2010 - Mar 2012 */}
-              </h6>
               <ul>
                 <li>
                   Full-Time employee in the mobile QA department where I began
